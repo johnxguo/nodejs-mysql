@@ -1,10 +1,3 @@
-// var mysqlCfg = {
-//     host     : '10.198.30.62',
-//     port     : 3935,
-//     user     : 'qt_test',
-//     password : 'qt_test', 
-//     database : ''
-// }
 
 var mysqlCfg = {
     host     : '127.0.0.1',
@@ -15,10 +8,10 @@ var mysqlCfg = {
 }
 
 var sshCfg = {
-    host: '10.125.40.37',
-    port: 36001,
+    host: '10.1.1.1',
+    port: 123,
     username: 'root',
-    password: 'itcloud@123'
+    password: 'root'
 }
 
 module.exports.mysqlCfg = mysqlCfg
